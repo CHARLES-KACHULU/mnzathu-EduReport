@@ -1,0 +1,141 @@
+<html>
+<head>
+   <title>Mzathu EduReport</title>
+   <style>
+body {
+    font-family: "Times New Roman", Arial;
+    padding: 40px;
+    background: yellow;
+    max-width: 700px;
+    margin: auto;
+}
+
+header {
+    margin-top: 10px;
+    color: blue;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+select {
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+td {
+    text-align: center;
+    background-color: orange;
+}
+
+button {
+    background-color: lightgreen;
+    padding: 6px;
+    border radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: red;
+}
+   </style>
+</head>
+<body>
+   <header>
+     <h1>Mnzathu EduReport Technologies</h1>
+   </header>
+
+<main>
+<section>
+<h2>Entering Marks Steps</h2>
+<ol>
+    <li>Choose Action: Enter Marks</li>
+    <li>Choose class stream, e.g. Form 1 Open</li>
+    <li>Select subject you want to enter marks</li>
+    <li>Enter marks against examination numbers</li>
+    <li>Submit Marks and list of numbers will be hidden</li>
+    <li>Repeat for all subjects you teach</li>
+</ol>
+
+
+<div>
+    <label><strong>Action:</strong></label>
+    <select>
+        <option>-Select Action-</option>
+        <option>Enter Marks</option>
+        <option>View Marks</option>
+    </select>
+
+    <label><strong>Stream:</strong></label>
+    <select>
+        <option value="">--Select Stream--</option>
+        <option>Form 1 Open</option>
+        <option>Form 1 Day</option>
+        <option>Form 2 Open</option>
+        <option>Form 2 Day</option>
+        <option>Form 3 Open</option>
+        <option>Form 3 Day</option>
+        <option>Form 4 Open</option>
+        <option>Form 4 Day</option>
+    </select>
+
+    <label><strong>Subject:</strong></label>
+    <select>
+        <option value="">--Select Subject--</option>
+        <option>English</option>
+        <option>Agriculture</option>
+        <option>Biology</option>
+        <option>Chemistry</option>
+        <option>Chichewa</option>
+        <option>Geography</option>
+        <option>History</option>
+        <option>Mathematics</option>
+        <option>Physics</option>
+        <option>Social and Life Skills</option>
+        <option>Bible Knowledge</option>
+    </select>
+</div>
+
+<!-- Table -->
+<table>
+<tr><th>Exam NO:</th><th>Marks</th></tr>
+<tr><td>F1-DAY-001</td><td></td></tr>
+<tr><td>F1-DAY-002</td><td></td></tr>
+<tr><td>F1-DAY-003</td><td></td></tr>
+<tr><td>F1-DAY-004</td><td></td></tr>
+<tr><td>F1-DAY-005</td><td></td></tr>
+<tr><td>F1-DAY-006</td><td></td></tr>
+</table>
+<br>
+<button>Submit Marks</button>
+</section>
+</main>
+
+<footer>
+<p><strong>Powered by <em>Smart Innovation</em></strong></p>
+</footer>
+
+</body>
+</html>
